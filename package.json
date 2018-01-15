@@ -1,0 +1,27 @@
+{
+    "name": "db_systems_hw4_tests",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "pretest": "npm run populate",
+        "test": "mongo test/script.test.js",
+        "posttest": "npm rum destroy",
+        "populate": "mongo test/lib/populate.js",
+        "destroy": "mongo test/lib/destroy.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/guywald1/db_systems_hw4_tests.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/guywald1/db_systems_hw4_tests/issues"
+    },
+    "homepage": "https://github.com/guywald1/db_systems_hw4_tests#readme"
+}
