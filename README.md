@@ -1,10 +1,15 @@
 # HW4 Wet Tests
 
+## Requirements
+
+* MongoDB shell version v3.4.6
+* MongoDB server version: 3.4.6
+
 ## Usage
 
-Before anything, make sure that you've moved `script.js` to the root directory.
-
 ### With Node.js
+
+> Make sure that you've moved `script.js` to the root directory, the NPM scripts rely on this.
 
 ```bash
 $ npm run test
@@ -14,6 +19,7 @@ $ npm run test
 
 > Assuming your MongoDB server is running on localhost:27017.
 > Otherwise, run instead of the first command, for example:
+>
 > ```bash
 > # replace <address:port> as needed
 > $ mongo <address:port> test/lib/populate.js
@@ -22,6 +28,8 @@ $ npm run test
 ```bash
 # populate the DB
 $ mongo test/lib/populate.js
+# populate the DB
+$ mongo script.js
 # run your script
 $ mongo test/script.test.js &&
 # drop the collections
