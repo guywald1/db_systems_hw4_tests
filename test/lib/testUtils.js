@@ -64,5 +64,8 @@ function assertEqualsCollectionArray(collection, arr, fields, queryParser) {
       });
       i++;
     });
+    expect(i, "probably missing some documents in your collection").toEqual(
+      arr.length
+    );
   };
 }
