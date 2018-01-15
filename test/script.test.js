@@ -9,7 +9,7 @@ load("test/lib/testUtils.js");
 // -------------------------- MAIN -------------------------
 
 // execute script
-load("src/script.js");
+load("script.js");
 
 test("init #1", "all mock data was inserted", expect => {
   assertEqualsCollectionArray("recipes", RECIPES, ["r_name"])(expect);
