@@ -7,11 +7,11 @@
         "test": "test"
     },
     "scripts": {
-        "pretest": "npm run populate",
+        "pretest": "npm run --silent destroy && npm run --silent populate && mongo script.js",
         "test": "mongo test/script.test.js",
-        "posttest": "npm rum destroy",
-        "populate": "mongo test/lib/populate.js",
-        "destroy": "mongo test/lib/destroy.js"
+        "posttest": "npm run --silent destroy",
+        "populate": "mongo test/lib/populate.js >/dev/null",
+        "destroy": "mongo test/lib/destroy.js >/dev/null"
     },
     "repository": {
         "type": "git",
