@@ -2,6 +2,8 @@
 
 ## Usage
 
+Before anything, make sure that you've moved `script.js` to the root directory.
+
 ### With Node.js
 
 ```bash
