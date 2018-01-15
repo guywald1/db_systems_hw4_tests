@@ -1,5 +1,5 @@
-const conn = new Mongo();
-const db = conn.getDB("ooh-la-tech");
+var conn = new Mongo();
+var db = conn.getDB("ooh-la-tech");
 
 db.recipes.drop();
 db.costs.drop();
