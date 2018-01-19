@@ -57,7 +57,7 @@ load('test/script.test.js');
 load('test/lib/destroy.js');
 ```
 
-In either case, you can always just run the `populate.js` script which (surprise, surprise) populates the DB, running your script and then comparing the `results1, results2, results3` collections to the expected one (see the [output](https://github.com/guywald1/db_systems_hw4_tests#output) part).
+In either case, you can always just run the `populate.js` script which (surprise, surprise) populates the DB, running your script and then comparing the `results1, results2, results3` collections to the expected one (see the [diffing](https://github.com/guywald1/db_systems_hw4_tests#diffing) part).
 
 ## Output
 
