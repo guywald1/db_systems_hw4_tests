@@ -7,8 +7,8 @@ Please use them at your discretion
 
 ## Requirements
 
-* MongoDB shell version v3.4.6
-* MongoDB server version: 3.4.6
+* MongoDB shell version: `>=3.4.6`
+* MongoDB server version: `>=3.4.6`
 
 ## Usage
 
