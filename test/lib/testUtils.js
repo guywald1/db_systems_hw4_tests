@@ -1,3 +1,8 @@
+/*
+  Some test utils inspired by the Jest API (see: https://facebook.github.io/jest/).
+  Could have been more elegant/efficient but ¯\_(ツ)_/¯ 
+*/
+
 const printRed = (...args) => {
   print("\x1b[31m", ...args, "\x1b[0m");
 };
