@@ -46,6 +46,7 @@ Try running from the mongo shell:
 
 ```javascript
 #!/usr/local/bin/mongo
+
 // populate the DB
 load('test/lib/populate.js');
 // run your script
