@@ -40,6 +40,24 @@ $ mongo test/script.test.js
 $ mongo test/lib/destroy.js
 ```
 
+### If the above doesn't work
+
+Try running from the mongo shell:
+
+```javascript
+#!/usr/local/bin/mongo
+// populate the DB
+load('test/lib/populate.js');
+// run your script
+load('script.js');
+// run the test
+load('test/script.test.js');
+// drop the collections
+load('test/lib/destroy.js');
+```
+
+In either case, you can always just run the `populate.js` script which (surprise, surprise) populates the DB, running your script and then comparing the `results1, results2, results3` collections to the expected one (see the [output](https://github.com/guywald1/db_systems_hw4_tests#output) part).
+
 ## Output
 
 If you passed, there should be no special output.
