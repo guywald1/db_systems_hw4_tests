@@ -32,9 +32,9 @@ $ npm run test
 ```bash
   # populate the DB
 $ mongo test/lib/populate.js
-  # populate the DB
-$ mongo script.js
   # run your script
+$ mongo script.js
+  # run the test
 $ mongo test/script.test.js
   # drop the collections
 $ mongo test/lib/destroy.js
