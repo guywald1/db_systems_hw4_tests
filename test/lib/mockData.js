@@ -46,6 +46,19 @@ const COSTS = [
     unit_measure: "gr",
     amount: 750,
     cost: 5.5
+  },
+  /* UNUSED RECIPES */
+  {
+    i_name: "onion",
+    unit_measure: "gr",
+    amount: 1000,
+    cost: 6.5
+  },
+  {
+    i_name: "garlic",
+    unit_measure: "gr",
+    amount: 1000,
+    cost: 5.5
   }
 ];
 
